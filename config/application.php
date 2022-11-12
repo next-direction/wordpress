@@ -11,6 +11,17 @@
 use Roots\WPConfig\Config;
 use function Env\env;
 
+// Fix for PHP 8+ installations for avoiding deprecation output and therefor disable cookies
+// Make sure error_reporting is in disable_functions in your php.ini to make this work
+// see https://phil.lavin.me.uk/2022/02/wordpress-changing-error_reporting-level/
+// see https://core.trac.wordpress.org/ticket/56935
+if ( !function_exists( 'error_reporting' ) ) {
+    function error_reporting(): bool
+    {
+        return true;
+    }
+}
+
 /**
  * Directory containing all of the site's files
  *
