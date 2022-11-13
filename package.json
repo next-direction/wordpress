@@ -1,0 +1,22 @@
+{
+  "name": "wordpress",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.5.0",
+    "glob": "^8.0.3",
+    "postcss": "^8.4.19",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.2.4",
+    "vue": "^3.2.41",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "scripts": {
+    "tw:dev": "postcss src/css/main.css -o web/app/themes/ndblog/assets/css/main.min.css --watch",
+    "tw:build": "postcss src/css/main.css -o web/app/themes/ndblog/assets/css/main.min.css",
+    "wp:dev": "webpack --watch",
+    "wp:build": "webpack",
+    "dev": "concurrently --kill-others \"yarn run tw:dev\" \"yarn run wp:dev\"",
+    "build": "concurrently --kill-others \"yarn run tw:build\" \"yarn run wp:build\""
+  }
+}
