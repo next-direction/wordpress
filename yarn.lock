@@ -53,6 +53,54 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@intlify/core-base@npm:9.2.2":
+  version: 9.2.2
+  resolution: "@intlify/core-base@npm:9.2.2"
+  dependencies:
+    "@intlify/devtools-if": 9.2.2
+    "@intlify/message-compiler": 9.2.2
+    "@intlify/shared": 9.2.2
+    "@intlify/vue-devtools": 9.2.2
+  checksum: 7944a2c49e6c2e41a07791aa6fc183e4f79a9e4283e0207e98f00f31f7da09b366da7cdda46942ae4fe6151035ec3c260a34295678629f5cd9fd87eda431b88e
+  languageName: node
+  linkType: hard
+
+"@intlify/devtools-if@npm:9.2.2":
+  version: 9.2.2
+  resolution: "@intlify/devtools-if@npm:9.2.2"
+  dependencies:
+    "@intlify/shared": 9.2.2
+  checksum: 5023805af2346f45e1a998308a94778febfdbeae77ebe5262578f856b273360923f241bfc4b9f8c358f1671647804a5c340398bf246afba45b97bcd9bd716cb0
+  languageName: node
+  linkType: hard
+
+"@intlify/message-compiler@npm:9.2.2":
+  version: 9.2.2
+  resolution: "@intlify/message-compiler@npm:9.2.2"
+  dependencies:
+    "@intlify/shared": 9.2.2
+    source-map: 0.6.1
+  checksum: 12e22dcc09c6a516b33ab6811633787bcc7045c7cec481cadf9e92e501183bf9210b52b4799dc736a134a0843681974326a2e2c4d7bc7b75cf00f9970fdecd56
+  languageName: node
+  linkType: hard
+
+"@intlify/shared@npm:9.2.2":
+  version: 9.2.2
+  resolution: "@intlify/shared@npm:9.2.2"
+  checksum: 0e4444ddaba42b6309f45eee427694b1cde3ee00f7a2d5dcc32cbcf3dafd28ed2a34d278686375d8862a3c3c057be162d2d477c9ef3b5ba7b397099ab340a798
+  languageName: node
+  linkType: hard
+
+"@intlify/vue-devtools@npm:9.2.2":
+  version: 9.2.2
+  resolution: "@intlify/vue-devtools@npm:9.2.2"
+  dependencies:
+    "@intlify/core-base": 9.2.2
+    "@intlify/shared": 9.2.2
+  checksum: 36be61339028a2e6a07e0b1982b72e8b7646b832196b22a2b0e7bc2fae7b23fcf1818e7797b22a8b824e81614ad4d922d1fdd3bcd2625d61721f57f589ff9bb2
+  languageName: node
+  linkType: hard
+
 "@jridgewell/gen-mapping@npm:^0.3.0":
   version: 0.3.2
   resolution: "@jridgewell/gen-mapping@npm:0.3.2"
@@ -254,6 +302,13 @@ __metadata:
     "@vue/compiler-dom": 3.2.45
     "@vue/shared": 3.2.45
   checksum: 341ad430959bdfba6ec4561f03b6bd788f520507606df5c46b40b94612fb7561c4c81490579d14d42485e023597be9e0788dd85027de3c675a7b2de4d7808322
+  languageName: node
+  linkType: hard
+
+"@vue/devtools-api@npm:^6.2.1, @vue/devtools-api@npm:^6.4.4":
+  version: 6.4.5
+  resolution: "@vue/devtools-api@npm:6.4.5"
+  checksum: bc26143fd01c62353296997bf9e5d5031c8704d6697b706f6f8a53f0c7edc76f169485678897259384108e4e7288930d32e281a5ca0188dbd47489d37c794ac6
   languageName: node
   linkType: hard
 
@@ -695,6 +750,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"big.js@npm:^5.2.2":
+  version: 5.2.2
+  resolution: "big.js@npm:5.2.2"
+  checksum: ea33d7d25674df4253ae3667da7f48ade6cc8828cb4f2c3a7753f53975f10cebae57e0d1ecf84f1b920b5467262dc0d4f357e5e497b138472d0e64992a8402a4
+  languageName: node
+  linkType: hard
+
 "binary-extensions@npm:^2.0.0":
   version: 2.2.0
   resolution: "binary-extensions@npm:2.2.0"
@@ -977,6 +1039,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"de-indent@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "de-indent@npm:1.0.2"
+  checksum: a1933a4328d053d9b0db447668521a6d0360b509c115dc5340420fd645be556c00b82e491d6b862249981ed22fbf2016080b222ad23c25038aba72cb8e3120ea
+  languageName: node
+  linkType: hard
+
 "debug@npm:4, debug@npm:^4.1.0, debug@npm:^4.3.3":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
@@ -1064,6 +1133,13 @@ __metadata:
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
   checksum: 87cf3f89efb8ba028075b3dc1713e2c5609af94cbc129b1f00c3113d01dbe4bf85c9d971e75a98bf8a8508131727682ce929e4bd70e9022af4fd47d75e9507de
+  languageName: node
+  linkType: hard
+
+"emojis-list@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "emojis-list@npm:3.0.0"
+  checksum: a79126b55bc86ee8fd938235a6adf9d457c05fb5bb934e8608b7d35c878d9d1e312a67759244f5c3fba0810b508eb5617e5e6ad6886496ebcfa6832d1c8de3c4
   languageName: node
   linkType: hard
 
@@ -1416,6 +1492,22 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"hash-sum@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "hash-sum@npm:2.0.0"
+  checksum: 9d833f05e8b9cb318ff0154c3864b0d2aaf4bd675a4b65377fb4d12eed13505423deb45e85b484affd71da3d3c8b8fe30e83bf81ca9a1dd6f3523043d9281e34
+  languageName: node
+  linkType: hard
+
+"he@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "he@npm:1.2.0"
+  bin:
+    he: bin/he
+  checksum: 212122003c20c8c17ac0c83a419b4c8e835411ff6ab9195d053ea6e4a0597cc005b5b8eabcbd57b0b0c0fe676f0049e09315845fff4e051198845491cbba260e
+  languageName: node
+  linkType: hard
+
 "http-cache-semantics@npm:^4.1.0":
   version: 4.1.0
   resolution: "http-cache-semantics@npm:4.1.0"
@@ -1636,6 +1728,15 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"json5@npm:^2.1.2":
+  version: 2.2.1
+  resolution: "json5@npm:2.2.1"
+  bin:
+    json5: lib/cli.js
+  checksum: 56b251bbbaba2a0403f45ef7b1fb2097e8a35db2ed604dc3d454d2c28c740968d7ccbe1c8c9069e4724dee7fe790668d462e0d21bedfae59c7843db74f0f2459
+  languageName: node
+  linkType: hard
+
 "jsonfile@npm:^6.0.1":
   version: 6.1.0
   resolution: "jsonfile@npm:6.1.0"
@@ -1667,6 +1768,17 @@ fsevents@~2.3.2:
   version: 4.3.0
   resolution: "loader-runner@npm:4.3.0"
   checksum: c2ef7e094bc5c048d1cebf256451b2c4e5c51f5d3bd1d6792413d3b2cc6f85665abcdf24fe9e0dbf6409693f12b77d6e82161878d2f3959b8f06e2dfb8bdc07f
+  languageName: node
+  linkType: hard
+
+"loader-utils@npm:^2.0.0":
+  version: 2.0.4
+  resolution: "loader-utils@npm:2.0.4"
+  dependencies:
+    big.js: ^5.2.2
+    emojis-list: ^3.0.0
+    json5: ^2.1.2
+  checksum: 3580906e021e94ed3b13b8179d557bd953494cc690015fa0b8bb99dfe8abfbe44e984c01cd0df68156c4b541a5b711019490124f83daaa5b8584f8e205b2a2c3
   languageName: node
   linkType: hard
 
@@ -2083,6 +2195,25 @@ fsevents@~2.3.2:
   version: 2.3.0
   resolution: "pify@npm:2.3.0"
   checksum: d5758aa570bbd5969c62b5f745065006827ef4859b32af302e3df2bb5978e6c1e50c2360d7ffefa102e451084f4530115c84570c185ba5153ee9871c977fe278
+  languageName: node
+  linkType: hard
+
+"pinia@npm:^2.0.23":
+  version: 2.0.23
+  resolution: "pinia@npm:2.0.23"
+  dependencies:
+    "@vue/devtools-api": ^6.4.4
+    vue-demi: "*"
+  peerDependencies:
+    "@vue/composition-api": ^1.4.0
+    typescript: ">=4.4.4"
+    vue: ^2.6.14 || ^3.2.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+    typescript:
+      optional: true
+  checksum: 0c302a2e98b8c48bca342a2117f4930c115c0e8de70b475c6c8767fd8a0699266e1a549471ae5a5a585ab7b9fafea8e16b88578b413b38f13df4cd382d107c01
   languageName: node
   linkType: hard
 
@@ -2557,7 +2688,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.6.0, source-map@npm:^0.6.1":
+"source-map@npm:0.6.1, source-map@npm:^0.6.0, source-map@npm:^0.6.1":
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 8647829a0611724114022be455ca1c8a2c8ae61df81c5b3667d9b398207226a1e21174fb7bbf0b4dbeb27ac358222afb5a14f1c74a62a62b8883b012e5eb1270
@@ -2828,6 +2959,64 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"vue-demi@npm:*":
+  version: 0.13.11
+  resolution: "vue-demi@npm:0.13.11"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: e506650244f53acc3ecbe5fae896393722bdcf9b33d05bd5ede23ca5571ee0c0817ce05a5bf7fc0a59e57413ea7d1f9710125a564dac3962d9685f9fae588ed9
+  languageName: node
+  linkType: hard
+
+"vue-i18n@npm:^9.2.2":
+  version: 9.2.2
+  resolution: "vue-i18n@npm:9.2.2"
+  dependencies:
+    "@intlify/core-base": 9.2.2
+    "@intlify/shared": 9.2.2
+    "@intlify/vue-devtools": 9.2.2
+    "@vue/devtools-api": ^6.2.1
+  peerDependencies:
+    vue: ^3.0.0
+  checksum: 416fc0d4a40c00a60a089a6ade2bf032e0003d8fe13697fbd554c0a51d8a7d0d1c46893b8320f9f3d6953bf522792be3554cab9443f83bdcadffcee9d446b855
+  languageName: node
+  linkType: hard
+
+"vue-loader@npm:^17.0.1":
+  version: 17.0.1
+  resolution: "vue-loader@npm:17.0.1"
+  dependencies:
+    chalk: ^4.1.0
+    hash-sum: ^2.0.0
+    loader-utils: ^2.0.0
+  peerDependencies:
+    webpack: ^4.1.0 || ^5.0.0-0
+  peerDependenciesMeta:
+    "@vue/compiler-sfc":
+      optional: true
+    vue:
+      optional: true
+  checksum: 71e245db6d16361033678e7292ae5f71a76436ef0689b6db184729caef6b16355386ff901e894ac3247a39cdffc9adf8f52f621617759c79417154485b95a095
+  languageName: node
+  linkType: hard
+
+"vue-template-compiler@npm:^2.7.14":
+  version: 2.7.14
+  resolution: "vue-template-compiler@npm:2.7.14"
+  dependencies:
+    de-indent: ^1.0.2
+    he: ^1.2.0
+  checksum: 40f77d7da21df7da9d308a00172c2c4f6e70ecd2c870670ba380a5d8ebbabc1d8e421de2433c049de8bb98b9e84a803087750cf450588b245be11eba453dd7e5
+  languageName: node
+  linkType: hard
+
 "vue@npm:3.2.45, vue@npm:^3.2.41":
   version: 3.2.45
   resolution: "vue@npm:3.2.45"
@@ -2972,10 +3161,14 @@ fsevents@~2.3.2:
     autoprefixer: ^10.4.13
     concurrently: ^7.5.0
     glob: ^8.0.3
+    pinia: ^2.0.23
     postcss: ^8.4.19
     postcss-cli: ^10.0.0
     tailwindcss: ^3.2.4
     vue: ^3.2.41
+    vue-i18n: ^9.2.2
+    vue-loader: ^17.0.1
+    vue-template-compiler: ^2.7.14
     webpack: ^5.75.0
     webpack-cli: ^4.10.0
   languageName: unknown

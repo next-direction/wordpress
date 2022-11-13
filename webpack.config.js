@@ -2,6 +2,7 @@ const glob = require('glob');
 const path = require('node:path');
 const url = require('url');
 const { fileURLToPath } = require('node:url');
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
     mode: process.env.NODE_ENV || 'production',
@@ -19,5 +20,19 @@ module.exports = {
         aggregateTimeout: 300,
         poll: 1000,
         ignored: /node_modules/
+    },
+    module: {
+        rules: [
+            {
+                test: /\.vue$/,
+                loader: 'vue-loader'
+            }
+        ]
+    },
+    plugins: [
+        new VueLoaderPlugin()
+    ],
+    resolve: {
+        extensions: ['*', '.js', '.vue', '.json']
     },
 };
