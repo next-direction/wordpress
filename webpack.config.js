@@ -4,7 +4,7 @@ const url = require('url');
 const { fileURLToPath } = require('node:url');
 
 module.exports = {
-    mode: 'development',
+    mode: process.env.NODE_ENV || 'production',
     entry: Object.fromEntries(
         glob.sync('src/js/**/index.js').map(file => [
             path.relative('src', file.slice(0, file.length - path.extname(file).length)),
